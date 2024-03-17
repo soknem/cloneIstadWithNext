@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 import CardContentComponent from "@/components/CardContentComponent";
 import Pagination from "@/components/PaginationComponent"; // Import the Pagination component
 import React from "react";
@@ -13,13 +13,12 @@ export default function News() {
     <CardContentComponent key={index} />
   ));
 
-  const itemsPerPage = 8; 
+  const itemsPerPage = 8;
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
   return (
     <div className="w-full h-auto flex flex-col px-2 md:px-10 lg:px-20 my-4">
-      
       <div>
         <h1 className="text-[24px] font-bold m-1 mt-3">USEFUL CONTENT</h1>
       </div>

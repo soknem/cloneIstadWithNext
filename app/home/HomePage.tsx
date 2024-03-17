@@ -4,7 +4,7 @@ import CardCourseComponent from "@/components/CardCourseComponent";
 export default function HomePage() {
   return (
     <div className="w-full h-full flex flex-col mb-4">
-      <div className="h-auto w-full">
+      <div>
         <SliderComponent />
       </div>
       <div className="flex flex-col w-full h-auto  px-2 md:px-10 xl:px-30">
